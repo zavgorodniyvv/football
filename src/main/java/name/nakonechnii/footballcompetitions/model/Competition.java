@@ -20,8 +20,7 @@ public class Competition {
     String name;
     String code;
     String emblemUrl;
-    //FIXME Change type to  Plan
-    String plan;
+    Plan plan;
     CurrentSeason currentSeason;
     int numberOfAvailableSeasons;
     @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss'Z'")
